@@ -1,0 +1,221 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+   
+    z-index: 1;/*to avoid overflow above the navbar*/
+
+}
+nav{
+    padding: 0;
+    margin: 0;
+}
+.navbar-brand{
+    padding-left: 7rem;
+    font-size: 40px;
+    font-weight: bolder;
+}
+span{
+    text-transform: lowercase;
+    font-style: italic;
+    font-size: 20px;
+    color: aqua;
+}
+#navbarNav{
+    font-size: 20px;
+    color: white;
+    justify-content: flex-end;
+}
+.expanded {
+    height:max-content; /* Set the expanded height as desired */
+    background-color: red; /* Set the background color for expanded state */
+    box-shadow: 2px 2px 2px 2px white;
+    padding-bottom: 10px;
+    display: block;
+    top: 0;
+    left: 0;
+  }
+.navbar-toggler{
+    outline:3px solid white;
+    width: 100px;
+}
+  .nav-item{
+    padding: 0 1rem;
+  } 
+
+/***************************************SECTION************************************/
+
+.container1{
+    width: 100%;
+    height: 50%;
+    background-color:black;
+    padding:10%; 
+    padding-bottom: 0;
+    margin-bottom: 50px;
+    
+}
+.about{
+    width: 50%;
+    /* display: flex; */
+    height: 70%;
+    padding: 0 10% 5% 10%;
+    color: white;
+
+}
+
+.about p{
+    text-align: justify;
+    padding-top: 3%;
+    font-size:20px;
+}
+
+.about h1{
+    font-family: 'Lemon', serif;
+    font-size: 50px;
+    padding-top: 60px;
+    /* opacity: 0; */
+    transition: opacity 2s ease;
+}
+.b1{
+    width: 250px;
+    background-color:green;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.img1{
+    width: 100%;
+    height: 90%;
+    /* background-color: #1D5B79; */
+    padding:7%;
+    /* object-fit: contain; */
+    
+    
+}
+.img1 img{
+    width: 100%;
+    height:100%;
+
+    /* height: 400px; */
+  /* margin:0 auto; */
+  /* display: block; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* width: 100%; */
+    
+}
+
+/************************************************Sections*****************************************************/
+
+.container2 {
+    width: auto;
+    /* min-width: 800px; */
+    /* margin: 1em auto; */
+    padding: 0 5%;
+    background-color: #FFF8F4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.projects a{
+    text-decoration: none;
+    /* text-align: center; */
+    scroll-behavior: smooth;
+    /* color: #fff; */
+}
+.bookimg {
+ width: 100%;
+ height:200px;
+ object-fit:contain;
+ border-radius: 5px;
+}
+.projects{
+    width: auto;
+    position:static;
+    height: 400px;
+    /* border: 1px solid black; */
+    box-shadow: 3px 3px 3px 3px #9DB2BF;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 10px 0;
+}
+.projects:hover{
+    transform: scale(1.05);
+    background-color: #ECECEC;
+    /* pointer-events: none; */
+    
+  }
+  .projects h3{
+    padding: 10px;
+    /* line-height:2; */
+    color: #1D5B79;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+.addCart{
+    width: 150px;
+}
+/*******************************************************Services******************************************/
+.services{
+    padding:5%;
+    text-align: center;
+    background-image: linear-gradient(270deg,#fcd405,#ee3a5b);
+  
+    
+}
+.S1{
+    background-color: #1E3050;  height: 200px;
+    /* align-items: center; */
+    text-align: center;
+    color: white;
+    padding: 5%;
+    margin: 3%;
+    border-radius: 15px;
+}
+
+i{
+    font-size: 50px;
+    padding: 15px;
+}
+
+
+/**********************************************************CONTACT********************************************************/
+.form{
+    background-color: lightgrey;
+}
+form {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 2em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input,
+textarea,
+button {
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 0.5em;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+.copy{
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+
